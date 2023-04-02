@@ -1,21 +1,3 @@
-# def ternary_search(array,start, end, key):
-#     while start <= end:
-#         mid1 = start + (end - start) /3
-#         mid2 = end - (end - start) /3
-#         if array[mid1] == key:
-#             return mid1
-#         elif array[mid2] == key:
-#             return mid2
-#         elif key < array[mid1]:
-
-#             return -1
-# array = [1, 2, 3, 4, 5, 6, 7]  
-# start = 0
-# end = 6  
-# key = 3
-# relult = ternary_search(array,start, end, key)
-# print(relult)    
-
 def ternarySearch(low, high, key, array):
     while high >= low:
          
